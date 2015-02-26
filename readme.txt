@@ -1,17 +1,21 @@
-=== bbPress ===
+=== BBP Auto-Close Topics ===
 Contributors: thebrandonallen
-Tags: forums, discussion, support, auto-close, close, topics
+Tags: forums, discussion, support, auto-close, close, topics, bbpress, bbp
 Requires at least: 3.6
 Tested up to: 4.1.1
 Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-BBP Auto-Close Topics will automatically close topics whose freshness is older than an admin-specified time period.
+BBP Auto-Close Topics will automatically close bbPress topics after an admin-specified time period.
 
 == Description ==
 
-BBP Auto-Close Topics will automatically close topics after an admin-specified time period. The topic age is based on the topic's freshness.
+BBP Auto-Close Topics will automatically close bbPress topics after an admin-specified time period. The topic age is based on topic freshness. Topics are closed on-the-fly (rather than in the database), so, if the you deactivate the plugin, topics that were once closed will be re-opened.
+
+Development of this plugin takes place on GitHub https://github.com/thebrandonallen/bbp-auto-close-topics. This is the preferred venue for support requests, and pull-requests are more than welcome :).
+
+**\* Note:** bbPress must be installed and activated before this plugin will have any effect.
 
 == Installation ==
 
