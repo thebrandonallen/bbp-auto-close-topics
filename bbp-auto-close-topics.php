@@ -120,7 +120,7 @@ function tba_bbp_auto_close_topics_topic_status( $status, $topic_id ) {
 	}
 
 	// Get the topic's last active time
-	$last_active = get_post_field( 'post_date', bbp_get_topic_last_active_time( $topic_id ) );
+	$last_active = get_post_field( 'post_date', bbp_get_topic_last_active_id( $topic_id ) );
 
 	// Check the topic age, and close if needed
 	if ( time() - strtotime( $last_active ) > ( $days_old * DAY_IN_SECONDS ) ) {
