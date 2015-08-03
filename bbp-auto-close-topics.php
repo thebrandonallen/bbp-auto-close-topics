@@ -6,7 +6,7 @@
  * Description: bbPress plugin to auto-close topics after a specified time period.
  * Author:      Brandon Allen
  * Author URI:  https://github.com/thebrandonallen/
- * Version:     0.1.0
+ * Version:     0.1.1
  * Text Domain: tba-bbp-auto-close-topics
  * Domain Path: /languages/
  * License:     GPLv2 or later (license.txt)

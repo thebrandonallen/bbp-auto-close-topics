@@ -1,0 +1,68 @@
+# Copyright (C) 2015 Brandon Allen
+# This file is distributed under the same license as the BBP Auto-Close Topics package.
+# Send translations to <wp_plugins [at] brandonallen (dot) org>.
+msgid ""
+msgstr ""
+"Project-Id-Version: BBP Auto-Close Topics 0.1.1\n"
+"Report-Msgid-Bugs-To: "
+"https://github.com/thebrandonallen/bbp-auto-close-topics/issues\n"
+"POT-Creation-Date: 2015-08-03 22:52:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: BRANDON ALLEN <wp_plugins@brandonallen.me>\n"
+"Language-Team: ENGLISH <wp_plugins@brandonallen.me>\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+
+#: bbp-auto-close-topics.php:147
+msgid "Auto-Close Topics"
+msgstr ""
+
+#: bbp-auto-close-topics.php:183
+msgid "30 days"
+msgstr ""
+
+#: bbp-auto-close-topics.php:184
+msgid "45 days"
+msgstr ""
+
+#: bbp-auto-close-topics.php:185
+msgid "60 days"
+msgstr ""
+
+#: bbp-auto-close-topics.php:186
+msgid "3 months"
+msgstr ""
+
+#: bbp-auto-close-topics.php:187
+msgid "6 months"
+msgstr ""
+
+#: bbp-auto-close-topics.php:188
+msgid "1 year"
+msgstr ""
+
+#: bbp-auto-close-topics.php:197
+msgid "Auto-close topics after"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "BBP Auto-Close Topics"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/thebrandonallen/bbp-auto-close-topics"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "bbPress plugin to auto-close topics after a specified time period."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brandon Allen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/thebrandonallen/"
+msgstr ""
