@@ -2,7 +2,7 @@
 **Contributors:** thebrandonallen  
 **Tags:** forums, discussion, support, auto-close, close, topics, bbpress, bbp  
 **Requires** at least: 3.6  
-**Tested up to:** 4.1.1  
+**Tested up to:** 4.2.3  
 **Stable tag:** 0.1.1  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,6 +43,9 @@ __* Note:__ bbPress must be installed and activated before this plugin will have
 1. Option in the bbPress Admin Interface
 
 ## Changelog
+
+#### 0.1.1
+* Fix issue where languages other than English would auto-close all topics, no matter the time. Props mfiguerasma. See https://wordpress.org/support/topic/topics-always-closed-1
 
 #### 0.1.0
 * Initial release.
