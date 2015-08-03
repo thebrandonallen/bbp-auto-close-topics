@@ -8,6 +8,7 @@ module.exports = function(grunt) {
 		BBP_ACT_EXCLUDED_MISC = [
 			'!**/.idea/**',
 			'!**/bin/**',
+			'!**/build/**',
 			'!**/coverage/**',
 			'!**/node_modules/**',
 			'!**/tests/**',
@@ -44,8 +45,17 @@ module.exports = function(grunt) {
 				]
 			},
 			files: {
-				src: [ '**/*.php', '!node_modules/**/*' ],
+				src: [ '**/*.php' ].concat( BBP_ACT_EXCLUDED_MISC ),
 				expand: true
+			}
+		},
+		clean: {
+			all: [ BUILD_DIR ],
+			dynamic: {
+				cwd: BUILD_DIR,
+				dot: true,
+				expand: true,
+				src: []
 			}
 		},
 		copy: {
