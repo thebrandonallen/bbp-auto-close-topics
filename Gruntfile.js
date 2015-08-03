@@ -85,7 +85,7 @@ module.exports = function(grunt) {
 					potComments: 'Copyright (C) ' + CURRENT_YEAR + ' Brandon Allen\nThis file is distributed under the same license as the BBP Auto-Close Topics package.\nSend translations to <wp_plugins [at] brandonallen (dot) org>.',
 					potFilename: 'bbp-auto-close-topics.pot',
 					processPot: function( pot ) {
-						pot.headers['report-msgid-bugs-to'] = 'https://github.com/thebrandonallen/bbp-auto-close-topics';
+						pot.headers['report-msgid-bugs-to'] = 'https://github.com/thebrandonallen/bbp-auto-close-topics/issues';
 						pot.headers['last-translator'] = 'BRANDON ALLEN <wp_plugins@brandonallen.me>';
 						pot.headers['language-team'] = 'ENGLISH <wp_plugins@brandonallen.me>';
 						return pot;
